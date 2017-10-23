@@ -1,3 +1,3 @@
-##My Explorations into Java
+## My Explorations into Java
 
-###Becoming one with the Statically typed language.
+### Becoming one with the Statically typed language.
