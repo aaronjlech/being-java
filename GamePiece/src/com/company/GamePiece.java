@@ -20,8 +20,8 @@ public class GamePiece {
         }
     }
     public void freeze() {
-        this.freeze = !this.freeze;
+        this.frozen = !this.frozen;
     }
 
-    public void
+
 }
