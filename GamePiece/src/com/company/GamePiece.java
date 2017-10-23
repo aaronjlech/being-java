@@ -5,13 +5,13 @@ public class GamePiece {
     int posX;
     int posY;
     boolean frozen;
-    String pieceName;
+    char pieceVal;
 
-    public GamePiece(int x, int y, String pieceName) {
+    public GamePiece(int x, int y, char pieceVal) {
         this.posX = x;
         this.posY = y;
         this.frozen = false;
-        this.pieceName = pieceName;
+        this.pieceVal = pieceVal;
     }
     public void move() {
         if(!this.frozen){
