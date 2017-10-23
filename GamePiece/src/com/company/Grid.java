@@ -14,9 +14,10 @@ public class Grid {
     }
     private ArrayList<ArrayList<String>> makeGrid() {
         for(int y = 0; y < this.height; y++) {
-            this.board.add(ArrayList<ArrayList<String>>);
-            for(int x = 0; x < this.width; x++) {
+            this.board = new ArrayList<>();
+            this.board[y] = new <ArrayList<String>;
 
+            for(int x = 0; x < this.width; x++) {
                 if(y == 0 || y == this.height - 1) {
                     System.out.print("x");
                 } else if(x == 0){
